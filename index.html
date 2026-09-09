@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Spielplätze in Glücksburg entdecken.">
+  <title>Spielplätze Glücksburg</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand-mark" aria-hidden="true">
+      <svg viewBox="0 0 24 24"><path d="M4 20 9 4m6 0 5 16M7.5 9h9M10 9v7m4-7v7m-5.5 0h7"/></svg>
+    </div>
+    <a class="brand" href="#top">Spielplätze <strong>Glücksburg</strong></a>
+    <time id="data-status" class="demo-badge" datetime="2026-09-07">Stand: 07.09.2026</time>
+  </header>
+
+  <main id="top" class="map-page">
+    <section class="map-panel">
+      <div id="map" aria-label="Karte mit Spielplätzen in Glücksburg"></div>
+    </section>
+    <section class="results-panel" aria-labelledby="directory-title">
+      <div class="results-heading">
+        <h2 id="directory-title"><span id="result-count">0</span> Spielplätze</h2>
+      </div>
+      <div id="results" class="result-list"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a href="impressum.html">Impressum und Datenschutz</a>
+  </footer>
+
+  <dialog id="playground-dialog" class="playground-dialog" aria-labelledby="dialog-title">
+    <button id="close-dialog" class="icon-button dialog-close" type="button" aria-label="Details schließen" title="Details schließen">
+      <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></svg>
+    </button>
+    <div id="dialog-content"></div>
+  </dialog>
+
+  <dialog id="image-dialog" class="image-dialog" aria-labelledby="image-dialog-title">
+    <button id="close-image-dialog" class="icon-button image-dialog-close" type="button" aria-label="Foto schließen" title="Foto schließen">
+      <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></svg>
+    </button>
+    <button id="previous-image" class="gallery-button gallery-previous" type="button" aria-label="Vorheriges Foto" title="Vorheriges Foto">
+      <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/></svg>
+    </button>
+    <button id="next-image" class="gallery-button gallery-next" type="button" aria-label="Nächstes Foto" title="Nächstes Foto">
+      <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg>
+    </button>
+    <figure>
+      <img id="full-size-image" src="" alt="">
+      <figcaption><span id="image-dialog-title"></span><span id="image-counter"></span></figcaption>
+    </figure>
+  </dialog>
+
+  <dialog id="route-dialog" class="route-dialog" aria-labelledby="route-dialog-title">
+    <button id="close-route-dialog" class="icon-button route-dialog-close" type="button" aria-label="Navigation schließen" title="Navigation schließen">
+      <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></svg>
+    </button>
+    <div class="route-dialog-content">
+      <p class="eyebrow">Navigation</p>
+      <h2 id="route-dialog-title">Route öffnen mit</h2>
+      <div id="route-options" class="route-options"></div>
+    </div>
+  </dialog>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

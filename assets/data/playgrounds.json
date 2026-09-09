@@ -1,0 +1,72 @@
+{
+  "updatedAt": "2026-09-08",
+  "playgrounds": [
+    {
+      "id": "spielplatz-001",
+      "name": "Holkier 1",
+      "area": "Wohngebiet",
+      "latitude": 54.832215,
+      "longitude": 9.560900,
+      "description": "Eingezäunte Wiese mit einer breiten Wippe und einem Spielturm-Sandkasten.",
+      "additional": "Kaum Schatten, keine Bäume, kein Tor. In 200 m Entfernung liegt ein weiterer Spielplatz.",
+      "image": "assets/images/spielplatz-001/spielplatz.png",
+      "imageAlt": "Spielplatz Holkier 1",
+    "equipment": [
+        { "name": "Wippe", "image": "assets/images/spielplatz-001/wippe.png", "imageAlt": "Wippe am Spielplatz Holkier 1" },
+        { "name": "Rutsche", "image": "assets/images/spielplatz-001/rustche.png", "imageAlt": "Rutsche am Spielplatz Holkier 1" },
+        { "name": "Kletterwand", "image": "assets/images/spielplatz-001/kletterwand.png", "imageAlt": "Kletterwand am Spielplatz Holkier 1" },
+        { "name": "Sandkasten", "image": "assets/images/spielplatz-001/sandkasten.png", "imageAlt": "Sandkasten am Spielplatz Holkier 1" },
+        { "name": "Spielturm", "image": "assets/images/spielplatz-001/spielturm.png", "imageAlt": "Spielturm am Spielplatz Holkier 1" },
+        { "name": "Sitzgelegenheit", "image": "assets/images/spielplatz-001/sitzgelegenheit.png", "imageAlt": "Sitzgelegenheit am Spielplatz Holkier 1" },
+        { "name": "Hinweisschild", "image": "assets/images/spielplatz-001/schild.png", "imageAlt": "Hinweisschild am Spielplatz Holkier 1", "showInList": false }
+      ],
+    "imageLabel": "Spielplatz Holkier 1",
+    "accent": "sun"
+  },
+    {
+      "id": "spielplatz-002",
+      "name": "Rudekamp",
+      "area": "Wohngebiet",
+      "latitude": 54.834353,
+      "longitude": 9.556661,
+      "description": "Kleiner Spielplatz zwischen den Häusern, eingerahmt von Bäumen und Sträuchern.",
+      "additional": "Nicht direkt an der Straße, kein Zaun und keine Tore.",
+      "image": "assets/images/spielplatz-002/spielplatz.png",
+      "imageAlt": "Spielplatz Rudekamp",
+    "equipment": [
+        { "name": "Schaukel", "image": "assets/images/spielplatz-002/schaukel.png", "imageAlt": "Schaukel am Spielplatz Rudekamp" },
+        { "name": "Turnstangen", "image": "assets/images/spielplatz-002/turnstangen.png", "imageAlt": "Turnstangen am Spielplatz Rudekamp" },
+        { "name": "Rutsche", "image": "assets/images/spielplatz-002/rustche.png", "imageAlt": "Rutsche am Spielplatz Rudekamp" },
+        { "name": "Drehender Kletterturm", "image": "assets/images/spielplatz-002/kletterturn.png", "imageAlt": "Drehender Kletterturm am Spielplatz Rudekamp" },
+        { "name": "Balancierbalken", "image": "assets/images/spielplatz-002/balancier_balken.png", "imageAlt": "Balancierbalken am Spielplatz Rudekamp" },
+        { "name": "Hinweisschild", "image": "assets/images/spielplatz-002/schild.png", "imageAlt": "Hinweisschild am Spielplatz Rudekamp", "showInList": false }
+      ],
+    "imageLabel": "Spielplatz Rudekamp",
+    "accent": "green"
+    },
+    {
+      "id": "spielplatz-003",
+      "name": "Holkier 2",
+      "area": "Wohngebiet",
+      "latitude": 54.832620,
+      "longitude": 9.563501,
+      "description": "Kleiner Spielplatz zwischen den Häusern, eingerahmt von Bäumen und Sträuchern.",
+      "additional": "Nicht direkt an der Straße, kein Zaun und keine Tore.",
+      "image": "assets/images/spielplatz-003/spielplatz.png",
+      "imageAlt": "Spielplatz Holkier 2",
+    "equipment": [
+        { "name": "Schaukel", "image": "assets/images/spielplatz-003/schaukel.png", "imageAlt": "Schaukel am Spielplatz Holkier 2" },
+        { "name": "Schaukel am Spielturm", "image": "assets/images/spielplatz-003/schaukel_spielturm.png", "imageAlt": "Schaukel am Spielturm auf dem Spielplatz Holkier 2" },
+        { "name": "Balancierstrecke", "image": "assets/images/spielplatz-003/balancierstrecke.png", "imageAlt": "Balancierstrecke am Spielplatz Holkier 2" },
+        { "name": "Kran-Kletterwand", "image": "assets/images/spielplatz-003/kran_kletterwand.PNG", "imageAlt": "Kran-Kletterwand am Spielplatz Holkier 2" },
+        { "name": "Rutsche", "image": "assets/images/spielplatz-003/rutsche.png", "imageAlt": "Rutsche am Spielplatz Holkier 2" },
+        { "name": "Sandkasten", "image": "assets/images/spielplatz-003/sandkasten.png", "imageAlt": "Sandkasten am Spielplatz Holkier 2" },
+        { "name": "Sitzgelegenheit", "image": "assets/images/spielplatz-003/sitzgelegenheit.png", "imageAlt": "Sitzgelegenheit am Spielplatz Holkier 2" },
+        { "name": "Spielturm mit Rutsche", "image": "assets/images/spielplatz-003/spielturm_rutsche.png", "imageAlt": "Spielturm mit Rutsche am Spielplatz Holkier 2" },
+        { "name": "Hinweisschild", "image": "assets/images/spielplatz-003/schild.png", "imageAlt": "Hinweisschild am Spielplatz Holkier 2", "showInList": false }
+      ],
+    "imageLabel": "Spielplatz Holkier 2",
+    "accent": "green"
+  }
+  ]
+}
