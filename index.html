@@ -4,7 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Spielplätze in Glücksburg entdecken.">
+  <meta name="theme-color" content="#18745d">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <title>Spielplätze Glücksburg</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="assets/icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/icons/icon-180.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -21,6 +27,15 @@
   </header>
 
   <main id="top" class="map-page">
+    <aside class="build-notice" aria-label="Hinweis zum Projekt">
+      <div class="build-notice-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><path d="M12 5v8m0 4h.01"/></svg>
+      </div>
+      <div class="build-notice-copy">
+        <strong>Die Seite ist noch im Aufbau</strong>
+        <span>Geplante Fertigstellung: Frühjahr/Sommer 2027</span>
+      </div>
+    </aside>
     <section class="map-panel">
       <div id="map" aria-label="Karte mit Spielplätzen in Glücksburg"></div>
     </section>
@@ -33,7 +48,8 @@
   </main>
 
   <footer class="site-footer">
-    <a href="impressum.html">Impressum und Datenschutz</a>
+    <a href="impressum.html">Impressum</a>
+    <a href="ueber-das-projekt.html">Über die Seite</a>
   </footer>
 
   <dialog id="playground-dialog" class="playground-dialog" aria-labelledby="dialog-title">
@@ -72,5 +88,6 @@
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
   <script src="assets/js/app.js"></script>
+  <script src="assets/js/pwa.js"></script>
 </body>
 </html>
