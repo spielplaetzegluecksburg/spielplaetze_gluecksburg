@@ -1,9 +1,9 @@
 {
   "name": "Spielplätze Glücksburg",
   "short_name": "Spielplätze",
-  "description": "Spielplätze in Glücksburg schnell entdecken.",
+  "description": "Interaktive Karte mit Spielplätzen in Glücksburg, Fotos, Ausstattung und Hinweisen für Familien.",
   "lang": "de",
-  "start_url": "index.html",
+  "start_url": "/",
   "scope": ".",
   "display": "standalone",
   "background_color": "#fff9ec",

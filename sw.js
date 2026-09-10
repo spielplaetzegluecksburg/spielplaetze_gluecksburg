@@ -1,4 +1,4 @@
-const CACHE_NAME = "spielplaetze-gluecksburg-v4";
+const CACHE_NAME = "spielplaetze-gluecksburg-v7";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -8,7 +8,10 @@ const APP_SHELL = [
   "./assets/js/app.js",
   "./assets/js/pwa.js",
   "./assets/data/playgrounds.json",
-  "./assets/icons/icon.svg"
+  "./assets/icons/icon.svg",
+  "./assets/fonts/dm-sans-latin.woff2",
+  "./assets/fonts/dm-sans-latin-ext.woff2",
+  "./assets/images/social-preview.png"
 ];
 
 self.addEventListener("install", (event) => {
@@ -26,18 +29,16 @@ self.addEventListener("activate", (event) => {
 self.addEventListener("fetch", (event) => {
   if (event.request.method !== "GET") return;
 
-  const networkFirst = event.request.mode === "navigate"
-    || event.request.destination === "style"
-    || event.request.destination === "script";
-  event.respondWith((networkFirst ? fetch(event.request) : caches.match(event.request))
-    .then((response) => {
-      if (response) return response;
+  event.respondWith(
+    fetch(event.request)
+      .then((networkResponse) => {
+        if (networkResponse.ok && event.request.url.startsWith(self.location.origin)) {
+          const responseCopy = networkResponse.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put(event.request, responseCopy));
+        }
 
-      return fetch(event.request).then((networkResponse) => {
-        const responseCopy = networkResponse.clone();
-        caches.open(CACHE_NAME).then((cache) => cache.put(event.request, responseCopy));
         return networkResponse;
-      });
-    })
-    .catch(() => caches.match(event.request)));
+      })
+      .catch(() => caches.match(event.request))
+  );
 });

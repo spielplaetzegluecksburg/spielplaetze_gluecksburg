@@ -1,7 +1,6 @@
 const elements = {
   results: document.querySelector("#results"),
   count: document.querySelector("#result-count"),
-  dataStatus: document.querySelector("#data-status"),
   dialog: document.querySelector("#playground-dialog"),
   dialogContent: document.querySelector("#dialog-content"),
   closeDialog: document.querySelector("#close-dialog"),
@@ -26,12 +25,10 @@ async function start() {
     if (!response.ok) throw new Error(`Daten konnten nicht geladen werden (${response.status}).`);
 
     const data = await response.json();
-    const { updatedAt } = data;
     const playgrounds = [...data.playgrounds].sort((first, second) => first.name.localeCompare(second.name, "de"));
     const map = initializeMap();
     renderMarkers(map, playgrounds);
     renderResults(map, playgrounds);
-    updateDataStatus(updatedAt);
   } catch (error) {
     console.error(error);
   }
@@ -144,12 +141,6 @@ function getEquipmentColorClass(name) {
     "Wippe": "tag-amber",
   };
   return colors[name] || "tag-green";
-}
-
-function updateDataStatus(updatedAt) {
-  const date = new Date(`${updatedAt}T12:00:00`);
-  elements.dataStatus.dateTime = updatedAt;
-  elements.dataStatus.textContent = `Stand: ${date.toLocaleDateString("de-DE")}`;
 }
 
 function getGalleryImages(playground) {
