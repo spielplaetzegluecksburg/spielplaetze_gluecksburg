@@ -1,257 +1,644 @@
-{
-  "updatedAt": "2026-09-08",
-  "playgrounds": [
-    {
-      "id": "spielplatz-001",
-      "name": "Holkier 1",
-      "area": "Wohngebiet",
-      "latitude": 54.832215,
-      "longitude": 9.560900,
-      "description": "Eingezäunte Wiese mit einer breiten Wippe und einem Spielturm-Sandkasten.",
-      "additional": "Kaum Schatten, keine Bäume, kein Tor. In 180 m Entfernung liegt Spielplatz Holkier 2.",
-      "image": "assets/images/spielplatz-001/spielplatz.png",
-      "imageAlt": "Spielplatz Holkier 1",
-    "equipment": [
-        { "name": "Wippe", "image": "assets/images/spielplatz-001/wippe.png", "imageAlt": "Wippe am Spielplatz Holkier 1" },
-        { "name": "Rutsche", "image": "assets/images/spielplatz-001/rutsche.png", "imageAlt": "Rutsche am Spielplatz Holkier 1" },
-        { "name": "Kletterwand", "image": "assets/images/spielplatz-001/kletterwand.png", "imageAlt": "Kletterwand am Spielplatz Holkier 1" },
-        { "name": "Sandkasten", "image": "assets/images/spielplatz-001/sandkasten.png", "imageAlt": "Sandkasten am Spielplatz Holkier 1" },
-        { "name": "Spielturm", "image": "assets/images/spielplatz-001/spielturm.png", "imageAlt": "Spielturm am Spielplatz Holkier 1" },
-        { "name": "Sitzgelegenheit", "image": "assets/images/spielplatz-001/sitzgelegenheit.png", "imageAlt": "Sitzgelegenheit am Spielplatz Holkier 1" },
-        { "name": "Hinweisschild", "image": "assets/images/spielplatz-001/schild.png", "imageAlt": "Hinweisschild am Spielplatz Holkier 1", "showInList": false }
-      ],
-    "imageLabel": "Spielplatz Holkier 1",
-    "accent": "sun"
-  },
-    {
-      "id": "spielplatz-002",
-      "name": "Rudekamp",
-      "area": "Wohngebiet",
-      "latitude": 54.834353,
-      "longitude": 9.556661,
-      "description": "Kleiner Spielplatz zwischen den Häusern, eingerahmt von Bäumen und Sträuchern.",
-      "additional": "Nicht direkt an der Straße, kein Zaun und keine Tore.",
-      "image": "assets/images/spielplatz-002/spielplatz.png",
-      "imageAlt": "Spielplatz Rudekamp",
-    "equipment": [
-        { "name": "Schaukel", "image": "assets/images/spielplatz-002/schaukel.png", "imageAlt": "Schaukel am Spielplatz Rudekamp" },
-        { "name": "Turnstangen", "image": "assets/images/spielplatz-002/turnstangen.png", "imageAlt": "Turnstangen am Spielplatz Rudekamp" },
-        { "name": "Rutsche", "image": "assets/images/spielplatz-002/rutsche.png", "imageAlt": "Rutsche am Spielplatz Rudekamp" },
-        { "name": "Drehender Kletterturm", "image": "assets/images/spielplatz-002/kletterturn.png", "imageAlt": "Drehender Kletterturm am Spielplatz Rudekamp" },
-        { "name": "Balancierbalken", "image": "assets/images/spielplatz-002/balancier_balken.png", "imageAlt": "Balancierbalken am Spielplatz Rudekamp" },
-        { "name": "Hinweisschild", "image": "assets/images/spielplatz-002/schild.png", "imageAlt": "Hinweisschild am Spielplatz Rudekamp", "showInList": false }
-      ],
-    "imageLabel": "Spielplatz Rudekamp",
-    "accent": "green"
-    },
-    {
-      "id": "spielplatz-003",
-      "name": "Holkier 2",
-      "area": "Wohngebiet",
-      "latitude": 54.832620,
-      "longitude": 9.563501,
-      "description": "Kleiner Spielplatz auf einem Eckgrundstück mit einem Hügel.",
-      "additional": "Komplett eingezäunt mit Tor, keine Bäume, kein Schatten.",
-      "image": "assets/images/spielplatz-003/spielplatz.png",
-      "imageAlt": "Spielplatz Holkier 2",
-    "equipment": [
-        { "name": "Schaukel", "image": "assets/images/spielplatz-003/schaukel.png", "imageAlt": "Schaukel am Spielplatz Holkier 2" },
-        { "name": "Balancierstrecke", "image": "assets/images/spielplatz-003/balancierstrecke.png", "imageAlt": "Balancierstrecke am Spielplatz Holkier 2" },
-        { "name": "Kran-Kletterwand", "image": "assets/images/spielplatz-003/kran_kletterwand.png", "imageAlt": "Kran-Kletterwand am Spielplatz Holkier 2" },
-        { "name": "Rutsche", "image": "assets/images/spielplatz-003/rutsche.png", "imageAlt": "Rutsche am Spielplatz Holkier 2" },
-        { "name": "Sandkasten", "image": "assets/images/spielplatz-003/sandkasten.png", "imageAlt": "Sandkasten am Spielplatz Holkier 2" },
-        { "name": "Schaukel-Spielturm", "image": "assets/images/spielplatz-003/schaukel_spielturm.png", "imageAlt": "Schaukel-Spielturm am Spielplatz Holkier 2" },
-        { "name": "Sitzgelegenheit", "image": "assets/images/spielplatz-003/sitzgelegenheit.png", "imageAlt": "Sitzgelegenheit am Spielplatz Holkier 2" },
-       { "name": "Hinweisschild", "image": "assets/images/spielplatz-003/schild.png", "imageAlt": "Hinweisschild am Spielplatz Holkier 2", "showInList": false }
-      ],
-    "imageLabel": "Spielplatz Holkier 2",
-    "accent": "green"
-  },
-    {
-      "id": "spielplatz-004",
-      "name": "Schauenthal Abenteuerspielplatz",
-      "area": "Wohngebiet",
-      "latitude": 54.837817,
-      "longitude": 9.559638,
-      "description": "Weitläufiger Spielplatz am Hang.",
-      "additional": "Sehr viel Platz, Zugang von drei Seiten.",
-      "image": "assets/images/spielplatz-004/spielplatz.png",
-      "imageAlt": "Schauenthal Abenteuerspielplatz",
-    "equipment": [
-        { "name": "Schaukel", "image": "assets/images/spielplatz-004/schaukel.png", "imageAlt": "Schaukel am Schauenthal Abenteuerspielplatz"},
-        { "name": "Netzschaukel", "image": "assets/images/spielplatz-004/netzschaukel.png", "imageAlt": "Netzschaukel am Schauenthal Abenteuerspielplatz"},
-        { "name": "Balancierbalken", "image": "assets/images/spielplatz-004/balancierbalken.png", "imageAlt": "Balancierbalken am Schauenthal Abenteuerspielplatz"},
-        { "name": "Kletterpfad", "image": "assets/images/spielplatz-004/kletterpfad.png", "imageAlt": "Kletterpfad am Schauenthal Abenteuerspielplatz"},
-        { "name": "Seilbahn", "image": "assets/images/spielplatz-004/seilbahn.png", "imageAlt": "Seilbahn am Schauenthal Abenteuerspielplatz"},
-        { "name": "Sitzgelegenheit", "image": "assets/images/spielplatz-004/sitzgelegenheit.png", "imageAlt": "Sitzgelegenheit am Schauenthal Abenteuerspielplatz" },
-        { "name": "Spielturm mit Rutsche", "image": "assets/images/spielplatz-004/spielturm_rutsche.png", "imageAlt": "Spielturm mit Rutsche am Schauenthal Abenteuerspielplatz"},
-        { "name": "Wippe", "image": "assets/images/spielplatz-004/wippe.png", "imageAlt": "Wippe am Schauenthal Abenteuerspielplatz"},
-        { "name": "Karussell", "image": "assets/images/spielplatz-004/karousel.png", "imageAlt": "Karussell am Schauenthal Abenteuerspielplatz"},
-        { "name": "Hinweisschild", "image": "assets/images/spielplatz-004/schild.png", "imageAlt": "Hinweisschild am Schauenthal Abenteuerspielplatz", "showInList": false }
-      ],
-    "imageLabel": "Schauenthal Abenteuerspielplatz",
-    "accent": "green"
-  },
-    {
-      "id": "spielplatz-005",
-      "name": "Bolzplatz Abenteuerspielplatz",
-      "area": "Wohngebiet",
-      "latitude": 54.838661,
-      "longitude": 9.559593,
-      "description": "Bolzplatz am unteren Ende vom Abenteuerspielplatz.",
-      "additional": "Wiese mit zwei Toren",
-      "image": "assets/images/spielplatz-005/bolzplatz.png",
-      "imageAlt": "Bolzplatz Abenteuerspielplatz",
-    "equipment": [
-        { "name": "Bolzplatz", "image": "assets/images/spielplatz-005/wiese.png", "imageAlt": "Wiese am Bolzplatz" },
-        { "name": "Hinweisschild", "image": "assets/images/spielplatz-005/schild.png", "imageAlt": "Hinweisschild am Bolzplatz", "showInList": false }
-      ],
-    "imageLabel": "Bolzplatz Abenteuerspielplatz",
-    "accent": "green"
-  },
-    {
-      "id": "spielplatz-006",
-      "name": "Waldspielplatz Friedeholz",
-      "area": "Wald",
-      "latitude": 54.846748,
-      "longitude": 9.548291,
-      "image": "assets/images/spielplatz-006/spielplatz.png",
-      "imageAlt": "Waldspielplatz Friedeholz",
-    "equipment": [
-        { "name": "Babyschaukel", "image": "assets/images/spielplatz-006/babyschaukel.png", "imageAlt": "Babyschaukel am Waldspielplatz Friedeholz" },
-        { "name": "Haus", "image": "assets/images/spielplatz-006/haus.png", "imageAlt": "Haus am Waldspielplatz Friedeholz" },
-        { "name": "Karussell", "image": "assets/images/spielplatz-006/karusell.png", "imageAlt": "Karussell am Waldspielplatz Friedeholz" },
-        { "name": "Kletterwand", "image": "assets/images/spielplatz-006/kletterwand.png", "imageAlt": "Kletterwand am Waldspielplatz Friedeholz" },
-        { "name": "Lupe", "image": "assets/images/spielplatz-006/lupe.png", "imageAlt": "Lupe am Waldspielplatz Friedeholz" },
-        { "name": "Netzschaukel", "image": "assets/images/spielplatz-006/netzschaukel.png", "imageAlt": "Netzschaukel am Waldspielplatz Friedeholz" },
-        { "name": "Rutsche", "image": "assets/images/spielplatz-006/rutsche.png", "imageAlt": "Rutsche am Waldspielplatz Friedeholz" },
-        { "name": "Schaukel", "image": "assets/images/spielplatz-006/schaukel.png", "imageAlt": "Schaukel am Waldspielplatz Friedeholz" },
-        { "name": "Schaukeltier", "image": "assets/images/spielplatz-006/schaukeltier.png", "imageAlt": "Schaukeltier am Waldspielplatz Friedeholz" },
-        { "name": "Sitzgelegenheit", "image": "assets/images/spielplatz-006/sitzgelegenheit.png", "imageAlt": "Sitzgelegenheit am Waldspielplatz Friedeholz" },
-        { "name": "Sitzgruppe", "image": "assets/images/spielplatz-006/sitzgruppe.png", "imageAlt": "Sitzgruppe am Waldspielplatz Friedeholz" },
-        { "name": "Wippe", "image": "assets/images/spielplatz-006/wippe.png", "imageAlt": "Wippe am Waldspielplatz Friedeholz" },
-        { "name": "Hinweisschild", "image": "assets/images/spielplatz-006/schild.png", "imageAlt": "Hinweisschild am Waldspielplatz Friedeholz", "showInList": false }
-      ],
-    "imageLabel": "Waldspielplatz Friedeholz",
-    "accent": "green"
-  },
-    {
-      "id": "spielplatz-007",
-      "name": "Rudehalle",
-      "area": "Wohngebiet",
-      "latitude": 54.827568,
-      "longitude": 9.540982,
-      "image": "assets/images/spielplatz-007/spielplatz.png",
-      "imageAlt": "Rudehalle",
-    "equipment": [
-        { "name": "Karussell", "image": "assets/images/spielplatz-007/karusell.png", "imageAlt": "Karussell am Spielplatz Rudehalle" },
-        { "name": "Schaukel", "image": "assets/images/spielplatz-007/schaukel.png", "imageAlt": "Schaukel am Spielplatz Rudehalle" },
-        { "name": "Schaukel-Fahrzeug", "image": "assets/images/spielplatz-007/schaukel_fahrzeug.png", "imageAlt": "Schaukel-Fahrzeug am Spielplatz Rudehalle" },
-        { "name": "Sitzgelegenheit", "image": "assets/images/spielplatz-007/sitzgelegenheit.png", "imageAlt": "Sitzgelegenheit am Spielplatz Rudehalle" },
-        { "name": "Wackelplatte", "image": "assets/images/spielplatz-007/wackelplatte.png", "imageAlt": "Wackelplatte am Spielplatz Rudehalle" },
-        { "name": "Wippe", "image": "assets/images/spielplatz-007/wippe.png", "imageAlt": "Wippe am Spielplatz Rudehalle" }
-      ],
-    "imageLabel": "Rudehalle",
-    "accent": "green"
-  },
-    {
-      "id": "spielplatz-008",
-      "name": "Strandspielplatz",
-      "area": "Strand",
-      "latitude": 54.840914,
-      "longitude": 9.529703,
-      "image": "assets/images/spielplatz-008/spielplatz.png",
-      "imageAlt": "Strandspielplatz",
-    "equipment": [
-        { "name": "Fernglas", "image": "assets/images/spielplatz-008/fernglas.png", "imageAlt": "Fernglas am Strandspielplatz" },
-        { "name": "Lupe", "image": "assets/images/spielplatz-008/lupe.png", "imageAlt": "Lupe am Strandspielplatz" },
-        { "name": "Sitzgelegenheit", "image": "assets/images/spielplatz-008/sitzgelegenheit.png", "imageAlt": "Sitzgelegenheit am Strandspielplatz" },
-        { "name": "Telefon", "image": "assets/images/spielplatz-008/telefon.png", "imageAlt": "Telefon am Strandspielplatz" },
-        { "name": "Wasserstrecke", "image": "assets/images/spielplatz-008/wasserstrecke.png", "imageAlt": "Wasserstrecke am Strandspielplatz" },
-        { "name": "Wippe", "image": "assets/images/spielplatz-008/wippe.png", "imageAlt": "Wippe am Strandspielplatz" }
-      ],
-    "imageLabel": "Strandspielplatz",
-    "accent": "green"
-  },
-    {
-      "id": "spielplatz-009",
-      "name": "Göhrener Weg",
-      "area": "Wohngebiet",
-      "latitude": 54.824898,
-      "longitude": 9.544751,
-      "image": "assets/images/spielplatz-009/spielplatz.png",
-      "imageAlt": "Spielplatz Göhrener Weg",
-    "equipment": [
-        { "name": "Sandkasten", "image": "assets/images/spielplatz-009/sandkasten.png", "imageAlt": "Sandkasten am Spielplatz Göhrener Weg" },
-        { "name": "Schaukel", "image": "assets/images/spielplatz-009/schaukel.png", "imageAlt": "Schaukel am Spielplatz Göhrener Weg" },
-        { "name": "Hinweisschild", "image": "assets/images/spielplatz-009/schild.png", "imageAlt": "Hinweisschild am Spielplatz Göhrener Weg", "showInList": false }
-      ],
-    "imageLabel": "Spielplatz Göhrener Weg",
-    "accent": "green"
-  },
-    {
-      "id": "spielplatz-010",
-      "name": "Schlossspielplatz",
-      "area": "Schloss",
-      "latitude": 54.832383,
-      "longitude": 9.544356,
-      "image": "assets/images/spielplatz-010/spielplatz.png",
-      "imageAlt": "Schlossspielplatz",
-    "equipment": [
-        { "name": "Kletterturm", "image": "assets/images/spielplatz-010/kletterturm.png", "imageAlt": "Kletterturm am Schlossspielplatz" }
-      ],
-    "imageLabel": "Schlossspielplatz",
-    "accent": "green"
-  },
-    {
-      "id": "spielplatz-011",
-      "name": "Schinderdam",
-      "area": "Parkplatz",
-      "latitude": 54.835071,
-      "longitude": 9.547537,
-      "image": "assets/images/spielplatz-011/spielplatz.png",
-      "imageAlt": "Spielplatz Schinderdam",
-    "equipment": [
-        { "name": "Drehstange", "image": "assets/images/spielplatz-011/drehstange.png", "imageAlt": "Drehstange am Spielplatz Schinderdam" },
-        { "name": "Schaukeltier", "image": "assets/images/spielplatz-011/schaukeltier.png", "imageAlt": "Schaukeltier am Spielplatz Schinderdam" },
-        { "name": "Hinweisschild", "image": "assets/images/spielplatz-011/schild.png", "imageAlt": "Hinweisschild am Spielplatz Schinderdam", "showInList": false }
-      ],
-    "imageLabel": "Spielplatz Schinderdam",
-    "accent": "green"
-  },
-    {
-      "id": "spielplatz-012",
-      "name": "Pier54",
-      "area": "Kurgarten",
-      "latitude": 54.841042,
-      "longitude": 9.531591,
-      "image": "assets/images/spielplatz-012/spielplatz.png",
-      "imageAlt": "Pier54",
-    "equipment": [
-        { "name": "Kletterschiff", "image": "assets/images/spielplatz-012/kletterschiff.png", "imageAlt": "Kletterschiff am Pier54" },
-        { "name": "Netzschaukel", "image": "assets/images/spielplatz-012/netzschaukel.png", "imageAlt": "Netzschaukel am Pier54" },
-        { "name": "Rutsche", "image": "assets/images/spielplatz-012/rutsche.png", "imageAlt": "Rutsche am Pier54" },
-        { "name": "Sitzgelegenheit", "image": "assets/images/spielplatz-012/sitzgelegenheit.png", "imageAlt": "Sitzgelegenheit am Pier54" },
-        { "name": "Wippe", "image": "assets/images/spielplatz-012/wippe.png", "imageAlt": "Wippe am Pier54" },
-        { "name": "Hinweisschild", "image": "assets/images/spielplatz-012/schild.png", "imageAlt": "Hinweisschild am Pier54", "showInList": false }
-      ],
-    "imageLabel": "Pier54",
-    "accent": "green"
-  },
-    {
-      "id": "spielplatz-013",
-      "name": "Schachplatz",
-      "area": "Kurgarten",
-      "latitude": 54.840653,
-      "longitude": 9.533106,
-      "image": "assets/images/spielplatz-013/spielplatz.png",
-      "imageAlt": "Schachplatz",
-    "equipment": [
-        { "name": "Schachfeld", "image": "assets/images/spielplatz-013/schachfeld.png", "imageAlt": "Schachfeld am Schachplatz" },
-        { "name": "Schachtisch", "image": "assets/images/spielplatz-013/schachtisch.png", "imageAlt": "Schachtisch am Schachplatz" }
-      ],
-    "imageLabel": "Schachplatz",
-    "accent": "green"
-  }
-  ]
+﻿{
+    "updatedAt":  "2026-09-08",
+    "playgrounds":  [
+                        {
+                            "id":  "spielplatz-001",
+                            "name":  "Holkier 1",
+                            "area":  "Wohngebiet",
+                            "latitude":  54.832215,
+                            "longitude":  9.560900,
+                            "description":  "EingezÃ¤unte Wiese mit einer breiten Wippe und einem Spielturm-Sandkasten.",
+                            "additional":  "Kaum Schatten, keine BÃ¤ume, kein Tor. In 180 m Entfernung liegt Spielplatz Holkier 2.",
+                            "image":  "assets/images/spielplatz-001/spielplatz.png",
+                            "imageAlt":  "Spielplatz Holkier 1",
+                            "equipment":  [
+                                              {
+                                                  "name":  "Wippe",
+                                                  "image":  "assets/images/spielplatz-001/wippe.png",
+                                                  "imageAlt":  "Wippe am Spielplatz Holkier 1",
+                                                  "imageThumbnail":  "assets/images/spielplatz-001/wippe-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Rutsche",
+                                                  "image":  "assets/images/spielplatz-001/rutsche.png",
+                                                  "imageAlt":  "Rutsche am Spielplatz Holkier 1",
+                                                  "imageThumbnail":  "assets/images/spielplatz-001/rutsche-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Kletterwand",
+                                                  "image":  "assets/images/spielplatz-001/kletterwand.png",
+                                                  "imageAlt":  "Kletterwand am Spielplatz Holkier 1",
+                                                  "imageThumbnail":  "assets/images/spielplatz-001/kletterwand-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Sandkasten",
+                                                  "image":  "assets/images/spielplatz-001/sandkasten.png",
+                                                  "imageAlt":  "Sandkasten am Spielplatz Holkier 1",
+                                                  "imageThumbnail":  "assets/images/spielplatz-001/sandkasten-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Spielturm",
+                                                  "image":  "assets/images/spielplatz-001/spielturm.png",
+                                                  "imageAlt":  "Spielturm am Spielplatz Holkier 1",
+                                                  "imageThumbnail":  "assets/images/spielplatz-001/spielturm-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Sitzgelegenheit",
+                                                  "image":  "assets/images/spielplatz-001/sitzgelegenheit.png",
+                                                  "imageAlt":  "Sitzgelegenheit am Spielplatz Holkier 1",
+                                                  "imageThumbnail":  "assets/images/spielplatz-001/sitzgelegenheit-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Hinweisschild",
+                                                  "image":  "assets/images/spielplatz-001/schild.png",
+                                                  "imageAlt":  "Hinweisschild am Spielplatz Holkier 1",
+                                                  "showInList":  false,
+                                                  "imageThumbnail":  "assets/images/spielplatz-001/schild-thumb.png"
+                                              }
+                                          ],
+                            "imageLabel":  "Spielplatz Holkier 1",
+                            "accent":  "sun",
+                            "imageThumbnail":  "assets/images/spielplatz-001/spielplatz-thumb.png"
+                        },
+                        {
+                            "id":  "spielplatz-002",
+                            "name":  "Rudekamp",
+                            "area":  "Wohngebiet",
+                            "latitude":  54.834353,
+                            "longitude":  9.556661,
+                            "description":  "Kleiner Spielplatz zwischen den HÃ¤usern, eingerahmt von BÃ¤umen und StrÃ¤uchern.",
+                            "additional":  "Nicht direkt an der StraÃŸe, kein Zaun und keine Tore.",
+                            "image":  "assets/images/spielplatz-002/spielplatz.png",
+                            "imageAlt":  "Spielplatz Rudekamp",
+                            "equipment":  [
+                                              {
+                                                  "name":  "Schaukel",
+                                                  "image":  "assets/images/spielplatz-002/schaukel.png",
+                                                  "imageAlt":  "Schaukel am Spielplatz Rudekamp",
+                                                  "imageThumbnail":  "assets/images/spielplatz-002/schaukel-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Turnstangen",
+                                                  "image":  "assets/images/spielplatz-002/turnstangen.png",
+                                                  "imageAlt":  "Turnstangen am Spielplatz Rudekamp",
+                                                  "imageThumbnail":  "assets/images/spielplatz-002/turnstangen-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Rutsche",
+                                                  "image":  "assets/images/spielplatz-002/rutsche.png",
+                                                  "imageAlt":  "Rutsche am Spielplatz Rudekamp",
+                                                  "imageThumbnail":  "assets/images/spielplatz-002/rutsche-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Drehender Kletterturm",
+                                                  "image":  "assets/images/spielplatz-002/kletterturn.png",
+                                                  "imageAlt":  "Drehender Kletterturm am Spielplatz Rudekamp",
+                                                  "imageThumbnail":  "assets/images/spielplatz-002/kletterturn-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Balancierbalken",
+                                                  "image":  "assets/images/spielplatz-002/balancier_balken.png",
+                                                  "imageAlt":  "Balancierbalken am Spielplatz Rudekamp",
+                                                  "imageThumbnail":  "assets/images/spielplatz-002/balancier_balken-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Hinweisschild",
+                                                  "image":  "assets/images/spielplatz-002/schild.png",
+                                                  "imageAlt":  "Hinweisschild am Spielplatz Rudekamp",
+                                                  "showInList":  false,
+                                                  "imageThumbnail":  "assets/images/spielplatz-002/schild-thumb.png"
+                                              }
+                                          ],
+                            "imageLabel":  "Spielplatz Rudekamp",
+                            "accent":  "green",
+                            "imageThumbnail":  "assets/images/spielplatz-002/spielplatz-thumb.png"
+                        },
+                        {
+                            "id":  "spielplatz-003",
+                            "name":  "Holkier 2",
+                            "area":  "Wohngebiet",
+                            "latitude":  54.832620,
+                            "longitude":  9.563501,
+                            "description":  "Kleiner Spielplatz auf einem EckgrundstÃ¼ck mit einem HÃ¼gel.",
+                            "additional":  "Komplett eingezÃ¤unt mit Tor, keine BÃ¤ume, kein Schatten.",
+                            "image":  "assets/images/spielplatz-003/spielplatz.png",
+                            "imageAlt":  "Spielplatz Holkier 2",
+                            "equipment":  [
+                                              {
+                                                  "name":  "Schaukel",
+                                                  "image":  "assets/images/spielplatz-003/schaukel.png",
+                                                  "imageAlt":  "Schaukel am Spielplatz Holkier 2",
+                                                  "imageThumbnail":  "assets/images/spielplatz-003/schaukel-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Balancierstrecke",
+                                                  "image":  "assets/images/spielplatz-003/balancierstrecke.png",
+                                                  "imageAlt":  "Balancierstrecke am Spielplatz Holkier 2",
+                                                  "imageThumbnail":  "assets/images/spielplatz-003/balancierstrecke-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Kran-Kletterwand",
+                                                  "image":  "assets/images/spielplatz-003/kran_kletterwand.png",
+                                                  "imageAlt":  "Kran-Kletterwand am Spielplatz Holkier 2",
+                                                  "imageThumbnail":  "assets/images/spielplatz-003/kran_kletterwand-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Rutsche",
+                                                  "image":  "assets/images/spielplatz-003/rutsche.png",
+                                                  "imageAlt":  "Rutsche am Spielplatz Holkier 2",
+                                                  "imageThumbnail":  "assets/images/spielplatz-003/rutsche-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Sandkasten",
+                                                  "image":  "assets/images/spielplatz-003/sandkasten.png",
+                                                  "imageAlt":  "Sandkasten am Spielplatz Holkier 2",
+                                                  "imageThumbnail":  "assets/images/spielplatz-003/sandkasten-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Schaukel-Spielturm",
+                                                  "image":  "assets/images/spielplatz-003/schaukel_spielturm.png",
+                                                  "imageAlt":  "Schaukel-Spielturm am Spielplatz Holkier 2",
+                                                  "imageThumbnail":  "assets/images/spielplatz-003/schaukel_spielturm-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Sitzgelegenheit",
+                                                  "image":  "assets/images/spielplatz-003/sitzgelegenheit.png",
+                                                  "imageAlt":  "Sitzgelegenheit am Spielplatz Holkier 2",
+                                                  "imageThumbnail":  "assets/images/spielplatz-003/sitzgelegenheit-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Hinweisschild",
+                                                  "image":  "assets/images/spielplatz-003/schild.png",
+                                                  "imageAlt":  "Hinweisschild am Spielplatz Holkier 2",
+                                                  "showInList":  false,
+                                                  "imageThumbnail":  "assets/images/spielplatz-003/schild-thumb.png"
+                                              }
+                                          ],
+                            "imageLabel":  "Spielplatz Holkier 2",
+                            "accent":  "green",
+                            "imageThumbnail":  "assets/images/spielplatz-003/spielplatz-thumb.png"
+                        },
+                        {
+                            "id":  "spielplatz-004",
+                            "name":  "Schauenthal Abenteuerspielplatz",
+                            "area":  "Wohngebiet",
+                            "latitude":  54.837817,
+                            "longitude":  9.559638,
+                            "description":  "WeitlÃ¤ufiger Spielplatz am Hang.",
+                            "additional":  "Sehr viel Platz, Zugang von drei Seiten.",
+                            "image":  "assets/images/spielplatz-004/spielplatz.png",
+                            "imageAlt":  "Schauenthal Abenteuerspielplatz",
+                            "equipment":  [
+                                              {
+                                                  "name":  "Schaukel",
+                                                  "image":  "assets/images/spielplatz-004/schaukel.png",
+                                                  "imageAlt":  "Schaukel am Schauenthal Abenteuerspielplatz",
+                                                  "imageThumbnail":  "assets/images/spielplatz-004/schaukel-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Netzschaukel",
+                                                  "image":  "assets/images/spielplatz-004/netzschaukel.png",
+                                                  "imageAlt":  "Netzschaukel am Schauenthal Abenteuerspielplatz",
+                                                  "imageThumbnail":  "assets/images/spielplatz-004/netzschaukel-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Balancierbalken",
+                                                  "image":  "assets/images/spielplatz-004/balancierbalken.png",
+                                                  "imageAlt":  "Balancierbalken am Schauenthal Abenteuerspielplatz",
+                                                  "imageThumbnail":  "assets/images/spielplatz-004/balancierbalken-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Kletterpfad",
+                                                  "image":  "assets/images/spielplatz-004/kletterpfad.png",
+                                                  "imageAlt":  "Kletterpfad am Schauenthal Abenteuerspielplatz",
+                                                  "imageThumbnail":  "assets/images/spielplatz-004/kletterpfad-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Seilbahn",
+                                                  "image":  "assets/images/spielplatz-004/seilbahn.png",
+                                                  "imageAlt":  "Seilbahn am Schauenthal Abenteuerspielplatz",
+                                                  "imageThumbnail":  "assets/images/spielplatz-004/seilbahn-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Sitzgelegenheit",
+                                                  "image":  "assets/images/spielplatz-004/sitzgelegenheit.png",
+                                                  "imageAlt":  "Sitzgelegenheit am Schauenthal Abenteuerspielplatz",
+                                                  "imageThumbnail":  "assets/images/spielplatz-004/sitzgelegenheit-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Spielturm mit Rutsche",
+                                                  "image":  "assets/images/spielplatz-004/spielturm_rutsche.png",
+                                                  "imageAlt":  "Spielturm mit Rutsche am Schauenthal Abenteuerspielplatz",
+                                                  "imageThumbnail":  "assets/images/spielplatz-004/spielturm_rutsche-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Wippe",
+                                                  "image":  "assets/images/spielplatz-004/wippe.png",
+                                                  "imageAlt":  "Wippe am Schauenthal Abenteuerspielplatz",
+                                                  "imageThumbnail":  "assets/images/spielplatz-004/wippe-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Karussell",
+                                                  "image":  "assets/images/spielplatz-004/karousel.png",
+                                                  "imageAlt":  "Karussell am Schauenthal Abenteuerspielplatz",
+                                                  "imageThumbnail":  "assets/images/spielplatz-004/karousel-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Hinweisschild",
+                                                  "image":  "assets/images/spielplatz-004/schild.png",
+                                                  "imageAlt":  "Hinweisschild am Schauenthal Abenteuerspielplatz",
+                                                  "showInList":  false,
+                                                  "imageThumbnail":  "assets/images/spielplatz-004/schild-thumb.png"
+                                              }
+                                          ],
+                            "imageLabel":  "Schauenthal Abenteuerspielplatz",
+                            "accent":  "green",
+                            "imageThumbnail":  "assets/images/spielplatz-004/spielplatz-thumb.png"
+                        },
+                        {
+                            "id":  "spielplatz-005",
+                            "name":  "Bolzplatz Abenteuerspielplatz",
+                            "area":  "Wohngebiet",
+                            "latitude":  54.838661,
+                            "longitude":  9.559593,
+                            "description":  "Bolzplatz am unteren Ende vom Abenteuerspielplatz.",
+                            "additional":  "Wiese mit zwei Toren",
+                            "image":  "assets/images/spielplatz-005/bolzplatz.png",
+                            "imageAlt":  "Bolzplatz Abenteuerspielplatz",
+                            "equipment":  [
+                                              {
+                                                  "name":  "Bolzplatz",
+                                                  "image":  "assets/images/spielplatz-005/wiese.png",
+                                                  "imageAlt":  "Wiese am Bolzplatz",
+                                                  "imageThumbnail":  "assets/images/spielplatz-005/wiese-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Hinweisschild",
+                                                  "image":  "assets/images/spielplatz-005/schild.png",
+                                                  "imageAlt":  "Hinweisschild am Bolzplatz",
+                                                  "showInList":  false,
+                                                  "imageThumbnail":  "assets/images/spielplatz-005/schild-thumb.png"
+                                              }
+                                          ],
+                            "imageLabel":  "Bolzplatz Abenteuerspielplatz",
+                            "accent":  "green",
+                            "imageThumbnail":  "assets/images/spielplatz-005/bolzplatz-thumb.png"
+                        },
+                        {
+                            "id":  "spielplatz-006",
+                            "name":  "Waldspielplatz Friedeholz",
+                            "area":  "Wald",
+                            "latitude":  54.846748,
+                            "longitude":  9.548291,
+                            "image":  "assets/images/spielplatz-006/spielplatz.png",
+                            "imageAlt":  "Waldspielplatz Friedeholz",
+                            "equipment":  [
+                                              {
+                                                  "name":  "Babyschaukel",
+                                                  "image":  "assets/images/spielplatz-006/babyschaukel.png",
+                                                  "imageAlt":  "Babyschaukel am Waldspielplatz Friedeholz",
+                                                  "imageThumbnail":  "assets/images/spielplatz-006/babyschaukel-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Haus",
+                                                  "image":  "assets/images/spielplatz-006/haus.png",
+                                                  "imageAlt":  "Haus am Waldspielplatz Friedeholz",
+                                                  "imageThumbnail":  "assets/images/spielplatz-006/haus-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Karussell",
+                                                  "image":  "assets/images/spielplatz-006/karusell.png",
+                                                  "imageAlt":  "Karussell am Waldspielplatz Friedeholz",
+                                                  "imageThumbnail":  "assets/images/spielplatz-006/karusell-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Kletterwand",
+                                                  "image":  "assets/images/spielplatz-006/kletterwand.png",
+                                                  "imageAlt":  "Kletterwand am Waldspielplatz Friedeholz",
+                                                  "imageThumbnail":  "assets/images/spielplatz-006/kletterwand-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Lupe",
+                                                  "image":  "assets/images/spielplatz-006/lupe.png",
+                                                  "imageAlt":  "Lupe am Waldspielplatz Friedeholz",
+                                                  "imageThumbnail":  "assets/images/spielplatz-006/lupe-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Netzschaukel",
+                                                  "image":  "assets/images/spielplatz-006/netzschaukel.png",
+                                                  "imageAlt":  "Netzschaukel am Waldspielplatz Friedeholz",
+                                                  "imageThumbnail":  "assets/images/spielplatz-006/netzschaukel-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Rutsche",
+                                                  "image":  "assets/images/spielplatz-006/rutsche.png",
+                                                  "imageAlt":  "Rutsche am Waldspielplatz Friedeholz",
+                                                  "imageThumbnail":  "assets/images/spielplatz-006/rutsche-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Schaukel",
+                                                  "image":  "assets/images/spielplatz-006/schaukel.png",
+                                                  "imageAlt":  "Schaukel am Waldspielplatz Friedeholz",
+                                                  "imageThumbnail":  "assets/images/spielplatz-006/schaukel-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Schaukeltier",
+                                                  "image":  "assets/images/spielplatz-006/schaukeltier.png",
+                                                  "imageAlt":  "Schaukeltier am Waldspielplatz Friedeholz",
+                                                  "imageThumbnail":  "assets/images/spielplatz-006/schaukeltier-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Sitzgelegenheit",
+                                                  "image":  "assets/images/spielplatz-006/sitzgelegenheit.png",
+                                                  "imageAlt":  "Sitzgelegenheit am Waldspielplatz Friedeholz",
+                                                  "imageThumbnail":  "assets/images/spielplatz-006/sitzgelegenheit-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Sitzgruppe",
+                                                  "image":  "assets/images/spielplatz-006/sitzgruppe.png",
+                                                  "imageAlt":  "Sitzgruppe am Waldspielplatz Friedeholz",
+                                                  "imageThumbnail":  "assets/images/spielplatz-006/sitzgruppe-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Wippe",
+                                                  "image":  "assets/images/spielplatz-006/wippe.png",
+                                                  "imageAlt":  "Wippe am Waldspielplatz Friedeholz",
+                                                  "imageThumbnail":  "assets/images/spielplatz-006/wippe-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Hinweisschild",
+                                                  "image":  "assets/images/spielplatz-006/schild.png",
+                                                  "imageAlt":  "Hinweisschild am Waldspielplatz Friedeholz",
+                                                  "showInList":  false,
+                                                  "imageThumbnail":  "assets/images/spielplatz-006/schild-thumb.png"
+                                              }
+                                          ],
+                            "imageLabel":  "Waldspielplatz Friedeholz",
+                            "accent":  "green",
+                            "imageThumbnail":  "assets/images/spielplatz-006/spielplatz-thumb.png"
+                        },
+                        {
+                            "id":  "spielplatz-007",
+                            "name":  "Rudehalle",
+                            "area":  "Wohngebiet",
+                            "latitude":  54.827568,
+                            "longitude":  9.540982,
+                            "image":  "assets/images/spielplatz-007/spielplatz.png",
+                            "imageAlt":  "Rudehalle",
+                            "equipment":  [
+                                              {
+                                                  "name":  "Karussell",
+                                                  "image":  "assets/images/spielplatz-007/karusell.png",
+                                                  "imageAlt":  "Karussell am Spielplatz Rudehalle",
+                                                  "imageThumbnail":  "assets/images/spielplatz-007/karusell-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Schaukel",
+                                                  "image":  "assets/images/spielplatz-007/schaukel.png",
+                                                  "imageAlt":  "Schaukel am Spielplatz Rudehalle",
+                                                  "imageThumbnail":  "assets/images/spielplatz-007/schaukel-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Schaukel-Fahrzeug",
+                                                  "image":  "assets/images/spielplatz-007/schaukel_fahrzeug.png",
+                                                  "imageAlt":  "Schaukel-Fahrzeug am Spielplatz Rudehalle",
+                                                  "imageThumbnail":  "assets/images/spielplatz-007/schaukel_fahrzeug-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Sitzgelegenheit",
+                                                  "image":  "assets/images/spielplatz-007/sitzgelegenheit.png",
+                                                  "imageAlt":  "Sitzgelegenheit am Spielplatz Rudehalle",
+                                                  "imageThumbnail":  "assets/images/spielplatz-007/sitzgelegenheit-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Wackelplatte",
+                                                  "image":  "assets/images/spielplatz-007/wackelplatte.png",
+                                                  "imageAlt":  "Wackelplatte am Spielplatz Rudehalle",
+                                                  "imageThumbnail":  "assets/images/spielplatz-007/wackelplatte-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Wippe",
+                                                  "image":  "assets/images/spielplatz-007/wippe.png",
+                                                  "imageAlt":  "Wippe am Spielplatz Rudehalle",
+                                                  "imageThumbnail":  "assets/images/spielplatz-007/wippe-thumb.png"
+                                              }
+                                          ],
+                            "imageLabel":  "Rudehalle",
+                            "accent":  "green",
+                            "imageThumbnail":  "assets/images/spielplatz-007/spielplatz-thumb.png"
+                        },
+                        {
+                            "id":  "spielplatz-008",
+                            "name":  "Strandspielplatz",
+                            "area":  "Strand",
+                            "latitude":  54.840914,
+                            "longitude":  9.529703,
+                            "image":  "assets/images/spielplatz-008/spielplatz.png",
+                            "imageAlt":  "Strandspielplatz",
+                            "equipment":  [
+                                              {
+                                                  "name":  "Fernglas",
+                                                  "image":  "assets/images/spielplatz-008/fernglas.png",
+                                                  "imageAlt":  "Fernglas am Strandspielplatz",
+                                                  "imageThumbnail":  "assets/images/spielplatz-008/fernglas-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Lupe",
+                                                  "image":  "assets/images/spielplatz-008/lupe.png",
+                                                  "imageAlt":  "Lupe am Strandspielplatz",
+                                                  "imageThumbnail":  "assets/images/spielplatz-008/lupe-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Sitzgelegenheit",
+                                                  "image":  "assets/images/spielplatz-008/sitzgelegenheit.png",
+                                                  "imageAlt":  "Sitzgelegenheit am Strandspielplatz",
+                                                  "imageThumbnail":  "assets/images/spielplatz-008/sitzgelegenheit-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Telefon",
+                                                  "image":  "assets/images/spielplatz-008/telefon.png",
+                                                  "imageAlt":  "Telefon am Strandspielplatz",
+                                                  "imageThumbnail":  "assets/images/spielplatz-008/telefon-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Wasserstrecke",
+                                                  "image":  "assets/images/spielplatz-008/wasserstrecke.png",
+                                                  "imageAlt":  "Wasserstrecke am Strandspielplatz",
+                                                  "imageThumbnail":  "assets/images/spielplatz-008/wasserstrecke-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Wippe",
+                                                  "image":  "assets/images/spielplatz-008/wippe.png",
+                                                  "imageAlt":  "Wippe am Strandspielplatz",
+                                                  "imageThumbnail":  "assets/images/spielplatz-008/wippe-thumb.png"
+                                              }
+                                          ],
+                            "imageLabel":  "Strandspielplatz",
+                            "accent":  "green",
+                            "imageThumbnail":  "assets/images/spielplatz-008/spielplatz-thumb.png"
+                        },
+                        {
+                            "id":  "spielplatz-009",
+                            "name":  "GÃ¶hrener Weg",
+                            "area":  "Wohngebiet",
+                            "latitude":  54.824898,
+                            "longitude":  9.544751,
+                            "image":  "assets/images/spielplatz-009/spielplatz.png",
+                            "imageAlt":  "Spielplatz GÃ¶hrener Weg",
+                            "equipment":  [
+                                              {
+                                                  "name":  "Sandkasten",
+                                                  "image":  "assets/images/spielplatz-009/sandkasten.png",
+                                                  "imageAlt":  "Sandkasten am Spielplatz GÃ¶hrener Weg",
+                                                  "imageThumbnail":  "assets/images/spielplatz-009/sandkasten-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Schaukel",
+                                                  "image":  "assets/images/spielplatz-009/schaukel.png",
+                                                  "imageAlt":  "Schaukel am Spielplatz GÃ¶hrener Weg",
+                                                  "imageThumbnail":  "assets/images/spielplatz-009/schaukel-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Hinweisschild",
+                                                  "image":  "assets/images/spielplatz-009/schild.png",
+                                                  "imageAlt":  "Hinweisschild am Spielplatz GÃ¶hrener Weg",
+                                                  "showInList":  false,
+                                                  "imageThumbnail":  "assets/images/spielplatz-009/schild-thumb.png"
+                                              }
+                                          ],
+                            "imageLabel":  "Spielplatz GÃ¶hrener Weg",
+                            "accent":  "green",
+                            "imageThumbnail":  "assets/images/spielplatz-009/spielplatz-thumb.png"
+                        },
+                        {
+                            "id":  "spielplatz-010",
+                            "name":  "Schlossspielplatz",
+                            "area":  "Schloss",
+                            "latitude":  54.832383,
+                            "longitude":  9.544356,
+                            "image":  "assets/images/spielplatz-010/spielplatz.png",
+                            "imageAlt":  "Schlossspielplatz",
+                            "equipment":  [
+                                              {
+                                                  "name":  "Kletterturm",
+                                                  "image":  "assets/images/spielplatz-010/kletterturm.png",
+                                                  "imageAlt":  "Kletterturm am Schlossspielplatz",
+                                                  "imageThumbnail":  "assets/images/spielplatz-010/kletterturm-thumb.png"
+                                              }
+                                          ],
+                            "imageLabel":  "Schlossspielplatz",
+                            "accent":  "green",
+                            "imageThumbnail":  "assets/images/spielplatz-010/spielplatz-thumb.png"
+                        },
+                        {
+                            "id":  "spielplatz-011",
+                            "name":  "Schinderdam",
+                            "area":  "Parkplatz",
+                            "latitude":  54.835071,
+                            "longitude":  9.547537,
+                            "image":  "assets/images/spielplatz-011/spielplatz.png",
+                            "imageAlt":  "Spielplatz Schinderdam",
+                            "equipment":  [
+                                              {
+                                                  "name":  "Drehstange",
+                                                  "image":  "assets/images/spielplatz-011/drehstange.png",
+                                                  "imageAlt":  "Drehstange am Spielplatz Schinderdam",
+                                                  "imageThumbnail":  "assets/images/spielplatz-011/drehstange-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Schaukeltier",
+                                                  "image":  "assets/images/spielplatz-011/schaukeltier.png",
+                                                  "imageAlt":  "Schaukeltier am Spielplatz Schinderdam",
+                                                  "imageThumbnail":  "assets/images/spielplatz-011/schaukeltier-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Hinweisschild",
+                                                  "image":  "assets/images/spielplatz-011/schild.png",
+                                                  "imageAlt":  "Hinweisschild am Spielplatz Schinderdam",
+                                                  "showInList":  false,
+                                                  "imageThumbnail":  "assets/images/spielplatz-011/schild-thumb.png"
+                                              }
+                                          ],
+                            "imageLabel":  "Spielplatz Schinderdam",
+                            "accent":  "green",
+                            "imageThumbnail":  "assets/images/spielplatz-011/spielplatz-thumb.png"
+                        },
+                        {
+                            "id":  "spielplatz-012",
+                            "name":  "Pier54",
+                            "area":  "Kurgarten",
+                            "latitude":  54.841042,
+                            "longitude":  9.531591,
+                            "image":  "assets/images/spielplatz-012/spielplatz.png",
+                            "imageAlt":  "Pier54",
+                            "equipment":  [
+                                              {
+                                                  "name":  "Kletterschiff",
+                                                  "image":  "assets/images/spielplatz-012/kletterschiff.png",
+                                                  "imageAlt":  "Kletterschiff am Pier54",
+                                                  "imageThumbnail":  "assets/images/spielplatz-012/kletterschiff-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Netzschaukel",
+                                                  "image":  "assets/images/spielplatz-012/netzschaukel.png",
+                                                  "imageAlt":  "Netzschaukel am Pier54",
+                                                  "imageThumbnail":  "assets/images/spielplatz-012/netzschaukel-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Rutsche",
+                                                  "image":  "assets/images/spielplatz-012/rutsche.png",
+                                                  "imageAlt":  "Rutsche am Pier54",
+                                                  "imageThumbnail":  "assets/images/spielplatz-012/rutsche-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Sitzgelegenheit",
+                                                  "image":  "assets/images/spielplatz-012/sitzgelegenheit.png",
+                                                  "imageAlt":  "Sitzgelegenheit am Pier54",
+                                                  "imageThumbnail":  "assets/images/spielplatz-012/sitzgelegenheit-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Wippe",
+                                                  "image":  "assets/images/spielplatz-012/wippe.png",
+                                                  "imageAlt":  "Wippe am Pier54",
+                                                  "imageThumbnail":  "assets/images/spielplatz-012/wippe-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Hinweisschild",
+                                                  "image":  "assets/images/spielplatz-012/schild.png",
+                                                  "imageAlt":  "Hinweisschild am Pier54",
+                                                  "showInList":  false,
+                                                  "imageThumbnail":  "assets/images/spielplatz-012/schild-thumb.png"
+                                              }
+                                          ],
+                            "imageLabel":  "Pier54",
+                            "accent":  "green",
+                            "imageThumbnail":  "assets/images/spielplatz-012/spielplatz-thumb.png"
+                        },
+                        {
+                            "id":  "spielplatz-013",
+                            "name":  "Schachplatz",
+                            "area":  "Kurgarten",
+                            "latitude":  54.840653,
+                            "longitude":  9.533106,
+                            "image":  "assets/images/spielplatz-013/spielplatz.png",
+                            "imageAlt":  "Schachplatz",
+                            "equipment":  [
+                                              {
+                                                  "name":  "Schachfeld",
+                                                  "image":  "assets/images/spielplatz-013/schachfeld.png",
+                                                  "imageAlt":  "Schachfeld am Schachplatz",
+                                                  "imageThumbnail":  "assets/images/spielplatz-013/schachfeld-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Schachtisch",
+                                                  "image":  "assets/images/spielplatz-013/schachtisch.png",
+                                                  "imageAlt":  "Schachtisch am Schachplatz",
+                                                  "imageThumbnail":  "assets/images/spielplatz-013/schachtisch-thumb.png"
+                                              }
+                                          ],
+                            "imageLabel":  "Schachplatz",
+                            "accent":  "green",
+                            "imageThumbnail":  "assets/images/spielplatz-013/spielplatz-thumb.png"
+                        }
+                    ]
 }

@@ -74,8 +74,9 @@ function renderResults(map, playgrounds) {
     const card = document.createElement("button");
     card.className = "playground-card";
     card.type = "button";
-    const image = playground.image
-      ? `<img src="${playground.image}" alt="${playground.imageAlt || playground.imageLabel}">`
+    const imageSrc = playground.imageThumbnail || playground.image;
+    const image = imageSrc
+      ? `<img src="${imageSrc}" alt="${playground.imageAlt || playground.imageLabel}">`
       : `<div class="image-placeholder accent-${playground.accent}" aria-hidden="true"></div>`;
     card.innerHTML = `
       <div class="playground-image">${image}</div>
@@ -160,9 +161,10 @@ function renderDevice(device, galleryIndex, index) {
     `;
   }
 
+  const deviceThumb = device.imageThumbnail || device.image;
   return `
     <button class="device-card device-card-button" type="button" data-gallery-index="${galleryIndex}">
-      <div class="device-image"><img src="${device.image}" alt="${device.imageAlt}"></div>
+      <div class="device-image"><img src="${deviceThumb}" alt="${device.imageAlt}"></div>
       <div class="device-card-body"><h4>${device.name}</h4><p>Foto vergrößern</p></div>
     </button>
   `;
