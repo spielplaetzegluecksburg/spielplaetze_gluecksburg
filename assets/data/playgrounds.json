@@ -149,8 +149,7 @@
         { "name": "Schaukel-Fahrzeug", "image": "assets/images/spielplatz-007/schaukel_fahrzeug.png", "imageAlt": "Schaukel-Fahrzeug am Spielplatz Rudehalle" },
         { "name": "Sitzgelegenheit", "image": "assets/images/spielplatz-007/sitzgelegenheit.png", "imageAlt": "Sitzgelegenheit am Spielplatz Rudehalle" },
         { "name": "Wackelplatte", "image": "assets/images/spielplatz-007/wackelplatte.png", "imageAlt": "Wackelplatte am Spielplatz Rudehalle" },
-        { "name": "Wippe", "image": "assets/images/spielplatz-007/wippe.png", "imageAlt": "Wippe am Spielplatz Rudehalle" },
-        { "name": "Hinweisschild", "image": "assets/images/spielplatz-007/schild.png", "imageAlt": "Hinweisschild am Spielplatz Rudehalle", "showInList": false }
+        { "name": "Wippe", "image": "assets/images/spielplatz-007/wippe.png", "imageAlt": "Wippe am Spielplatz Rudehalle" }
       ],
     "imageLabel": "Rudehalle",
     "accent": "green"
@@ -169,8 +168,7 @@
         { "name": "Sitzgelegenheit", "image": "assets/images/spielplatz-008/sitzgelegenheit.png", "imageAlt": "Sitzgelegenheit am Strandspielplatz" },
         { "name": "Telefon", "image": "assets/images/spielplatz-008/telefon.png", "imageAlt": "Telefon am Strandspielplatz" },
         { "name": "Wasserstrecke", "image": "assets/images/spielplatz-008/wasserstrecke.png", "imageAlt": "Wasserstrecke am Strandspielplatz" },
-        { "name": "Wippe", "image": "assets/images/spielplatz-008/wippe.png", "imageAlt": "Wippe am Strandspielplatz" },
-        { "name": "Hinweisschild", "image": "assets/images/spielplatz-008/schild.png", "imageAlt": "Hinweisschild am Strandspielplatz", "showInList": false }
+        { "name": "Wippe", "image": "assets/images/spielplatz-008/wippe.png", "imageAlt": "Wippe am Strandspielplatz" }
       ],
     "imageLabel": "Strandspielplatz",
     "accent": "green"
@@ -250,8 +248,7 @@
       "imageAlt": "Schachplatz",
     "equipment": [
         { "name": "Schachfeld", "image": "assets/images/spielplatz-013/schachfeld.png", "imageAlt": "Schachfeld am Schachplatz" },
-        { "name": "Schachtisch", "image": "assets/images/spielplatz-013/schachtisch.png", "imageAlt": "Schachtisch am Schachplatz" },
-        { "name": "Hinweisschild", "image": "assets/images/spielplatz-013/schild.png", "imageAlt": "Hinweisschild am Schachplatz", "showInList": false }
+        { "name": "Schachtisch", "image": "assets/images/spielplatz-013/schachtisch.png", "imageAlt": "Schachtisch am Schachplatz" }
       ],
     "imageLabel": "Schachplatz",
     "accent": "green"
