@@ -56,16 +56,56 @@
       "imageAlt": "Spielplatz Holkier 2",
     "equipment": [
         { "name": "Schaukel", "image": "assets/images/spielplatz-003/schaukel.png", "imageAlt": "Schaukel am Spielplatz Holkier 2" },
-        { "name": "Schaukel am Spielturm", "image": "assets/images/spielplatz-003/schaukel_spielturm.png", "imageAlt": "Schaukel am Spielturm auf dem Spielplatz Holkier 2" },
         { "name": "Balancierstrecke", "image": "assets/images/spielplatz-003/balancierstrecke.png", "imageAlt": "Balancierstrecke am Spielplatz Holkier 2" },
         { "name": "Kran-Kletterwand", "image": "assets/images/spielplatz-003/kran_kletterwand.PNG", "imageAlt": "Kran-Kletterwand am Spielplatz Holkier 2" },
         { "name": "Rutsche", "image": "assets/images/spielplatz-003/rutsche.png", "imageAlt": "Rutsche am Spielplatz Holkier 2" },
         { "name": "Sandkasten", "image": "assets/images/spielplatz-003/sandkasten.png", "imageAlt": "Sandkasten am Spielplatz Holkier 2" },
         { "name": "Sitzgelegenheit", "image": "assets/images/spielplatz-003/sitzgelegenheit.png", "imageAlt": "Sitzgelegenheit am Spielplatz Holkier 2" },
-        { "name": "Spielturm mit Rutsche", "image": "assets/images/spielplatz-003/spielturm_rutsche.png", "imageAlt": "Spielturm mit Rutsche am Spielplatz Holkier 2" },
-        { "name": "Hinweisschild", "image": "assets/images/spielplatz-003/schild.png", "imageAlt": "Hinweisschild am Spielplatz Holkier 2", "showInList": false }
+       { "name": "Hinweisschild", "image": "assets/images/spielplatz-003/schild.png", "imageAlt": "Hinweisschild am Spielplatz Holkier 2", "showInList": false }
       ],
     "imageLabel": "Spielplatz Holkier 2",
+    "accent": "green"
+  },
+    {
+      "id": "spielplatz-004",
+      "name": "Schauenthal Abenteuerspielplatz",
+      "area": "Wohngebiet",
+      "latitude": 54.832620,
+      "longitude": 9.563501,
+      "description": "Weitläufiger Spielplatz am Hang.",
+      "additional": "Sehr viel Platz, Zugang von drei Seiten.",
+      "image": "assets/images/spielplatz-004/spielplatz.png",
+      "imageAlt": "Schauenthal Abenteuerspielplatz",
+    "equipment": [
+        { "name": "Schaukel", "image": "assets/images/spielplatz-004/schaukel.png", "imageAlt": "Schaukel am Schauenthal Abenteuerspielplatz"},
+        { "name": "Netzschaukel", "image": "assets/images/spielplatz-004/netzschaukel.png", "imageAlt": "Netzschaukel am Schauenthal Abenteuerspielplatz"},
+        { "name": "Balancierbalken", "image": "assets/images/spielplatz-004/balancierbalken.png", "imageAlt": "Balancierbalken am Schauenthal Abenteuerspielplatz"},
+        { "name": "Kletterpfad", "image": "assets/images/spielplatz-004/kletterpfad.png", "imageAlt": "Kletterpfad am Schauenthal Abenteuerspielplatz"},
+        { "name": "Seilbahn", "image": "assets/images/spielplatz-004/seilbahn.png", "imageAlt": "Seilbahn am Schauenthal Abenteuerspielplatz"},
+        { "name": "Sitzgelegenheit", "image": "assets/images/spielplatz-004/sitzgelegenheit.png", "imageAlt": "Sitzgelegenheit am Schauenthal Abenteuerspielplatz" },
+        { "name": "Spielturm mit Rutsche", "image": "assets/images/spielplatz-004/spielturm_rutsche.png", "imageAlt": "Spielturm mit Rutsche am Schauenthal Abenteuerspielplatz"},
+        { "name": "Wippe", "image": "assets/images/spielplatz-004/wippe.png", "imageAlt": "Wippe am Schauenthal Abenteuerspielplatz"},
+        { "name": "Karussell", "image": "assets/images/spielplatz-004/karousel.png", "imageAlt": "Karussell am Schauenthal Abenteuerspielplatz"},
+        { "name": "Hinweisschild", "image": "assets/images/spielplatz-004/schild.png", "imageAlt": "Hinweisschild am Schauenthal Abenteuerspielplatz", "showInList": false }
+      ],
+    "imageLabel": "Schauenthal Abenteuerspielplatz",
+    "accent": "green"
+  },
+    {
+      "id": "spielplatz-005",
+      "name": "Bolzplatz Abenteuerspielplatz",
+      "area": "Wohngebiet",
+      "latitude": 54.832620,
+      "longitude": 9.563501,
+      "description": "Bolzplatz am unteren Ende vom Abenteuerspielplatz.",
+      "additional": "Wiese mit zwei Toren",
+      "image": "assets/images/spielplatz-005/bolzplatz.png",
+      "imageAlt": "Bolzplatz Abenteuerspielplatz",
+    "equipment": [
+        { "name": "Bolzplatz", "image": "assets/images/spielplatz-005/wiese.png", "imageAlt": "Wiese am Bolzplatz" },
+        { "name": "Hinweisschild", "image": "assets/images/spielplatz-005/schild.png", "imageAlt": "Hinweisschild am Bolzplatz", "showInList": false }
+      ],
+    "imageLabel": "Bolzplatz Abenteuerspielplatz",
     "accent": "green"
   }
   ]
