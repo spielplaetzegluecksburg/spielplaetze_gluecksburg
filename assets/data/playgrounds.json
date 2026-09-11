@@ -7,8 +7,8 @@
                             "area":  "Wohngebiet",
                             "latitude":  54.832215,
                             "longitude":  9.560900,
-                            "description":  "EingezÃ¤unte Wiese mit einer breiten Wippe und einem Spielturm-Sandkasten.",
-                            "additional":  "Kaum Schatten, keine BÃ¤ume, kein Tor. In 180 m Entfernung liegt Spielplatz Holkier 2.",
+                            "description":  "Eingezäunte Wiese mit einer breiten Wippe und einem Spielturm-Sandkasten.",
+                            "additional":  "Kaum Schatten, keine Bäume, kein Tor. In 180 m Entfernung liegt Spielplatz Holkier 2.",
                             "image":  "assets/images/spielplatz-001/spielplatz.png",
                             "imageAlt":  "Spielplatz Holkier 1",
                             "equipment":  [
@@ -66,8 +66,8 @@
                             "area":  "Wohngebiet",
                             "latitude":  54.834353,
                             "longitude":  9.556661,
-                            "description":  "Kleiner Spielplatz zwischen den HÃ¤usern, eingerahmt von BÃ¤umen und StrÃ¤uchern.",
-                            "additional":  "Nicht direkt an der StraÃŸe, kein Zaun und keine Tore.",
+                            "description":  "Kleiner Spielplatz zwischen den Häusern, eingerahmt von Bäumen und Sträuchern.",
+                            "additional":  "Nicht direkt an der Straße, kein Zaun und keine Tore.",
                             "image":  "assets/images/spielplatz-002/spielplatz.png",
                             "imageAlt":  "Spielplatz Rudekamp",
                             "equipment":  [
@@ -119,8 +119,8 @@
                             "area":  "Wohngebiet",
                             "latitude":  54.832620,
                             "longitude":  9.563501,
-                            "description":  "Kleiner Spielplatz auf einem EckgrundstÃ¼ck mit einem HÃ¼gel.",
-                            "additional":  "Komplett eingezÃ¤unt mit Tor, keine BÃ¤ume, kein Schatten.",
+                            "description":  "Kleiner Spielplatz auf einem Eckgrundstück mit einem Hügel.",
+                            "additional":  "Komplett eingezäunt mit Tor, keine Bäume, kein Schatten.",
                             "image":  "assets/images/spielplatz-003/spielplatz.png",
                             "imageAlt":  "Spielplatz Holkier 2",
                             "equipment":  [
@@ -184,7 +184,7 @@
                             "area":  "Wohngebiet",
                             "latitude":  54.837817,
                             "longitude":  9.559638,
-                            "description":  "WeitlÃ¤ufiger Spielplatz am Hang.",
+                            "description":  "Weitläufiger Spielplatz am Hang.",
                             "additional":  "Sehr viel Platz, Zugang von drei Seiten.",
                             "image":  "assets/images/spielplatz-004/spielplatz.png",
                             "imageAlt":  "Schauenthal Abenteuerspielplatz",
@@ -479,34 +479,34 @@
                         },
                         {
                             "id":  "spielplatz-009",
-                            "name":  "GÃ¶hrener Weg",
+                            "name":  "Göhrener Weg",
                             "area":  "Wohngebiet",
                             "latitude":  54.824898,
                             "longitude":  9.544751,
                             "image":  "assets/images/spielplatz-009/spielplatz.png",
-                            "imageAlt":  "Spielplatz GÃ¶hrener Weg",
+                            "imageAlt":  "Spielplatz Göhrener Weg",
                             "equipment":  [
                                               {
                                                   "name":  "Sandkasten",
                                                   "image":  "assets/images/spielplatz-009/sandkasten.png",
-                                                  "imageAlt":  "Sandkasten am Spielplatz GÃ¶hrener Weg",
+                                                  "imageAlt":  "Sandkasten am Spielplatz Göhrener Weg",
                                                   "imageThumbnail":  "assets/images/spielplatz-009/sandkasten-thumb.png"
                                               },
                                               {
                                                   "name":  "Schaukel",
                                                   "image":  "assets/images/spielplatz-009/schaukel.png",
-                                                  "imageAlt":  "Schaukel am Spielplatz GÃ¶hrener Weg",
+                                                  "imageAlt":  "Schaukel am Spielplatz Göhrener Weg",
                                                   "imageThumbnail":  "assets/images/spielplatz-009/schaukel-thumb.png"
                                               },
                                               {
                                                   "name":  "Hinweisschild",
                                                   "image":  "assets/images/spielplatz-009/schild.png",
-                                                  "imageAlt":  "Hinweisschild am Spielplatz GÃ¶hrener Weg",
+                                                  "imageAlt":  "Hinweisschild am Spielplatz Göhrener Weg",
                                                   "showInList":  false,
                                                   "imageThumbnail":  "assets/images/spielplatz-009/schild-thumb.png"
                                               }
                                           ],
-                            "imageLabel":  "Spielplatz GÃ¶hrener Weg",
+                            "imageLabel":  "Spielplatz Göhrener Weg",
                             "accent":  "green",
                             "imageThumbnail":  "assets/images/spielplatz-009/spielplatz-thumb.png"
                         },
