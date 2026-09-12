@@ -290,6 +290,8 @@
                             "area":  "Wald",
                             "latitude":  54.846748,
                             "longitude":  9.548291,
+                            "description":  "Mittem im Wald, komplett unter Bäumen",
+                            "additional":  "Parken am Parkplatz Friedeholz",
                             "image":  "assets/images/spielplatz-006/spielplatz.png",
                             "imageAlt":  "Waldspielplatz Friedeholz",
                             "equipment":  [
@@ -383,6 +385,8 @@
                             "area":  "Wohngebiet",
                             "latitude":  54.827568,
                             "longitude":  9.540982,
+                            "description":  "Zwischen Parkplatz und Sporthalle",
+                            "additional":  "Keine Eingrenzung, keine Tore, keine Bäume",
                             "image":  "assets/images/spielplatz-007/spielplatz.png",
                             "imageAlt":  "Rudehalle",
                             "equipment":  [
@@ -433,6 +437,8 @@
                             "area":  "Strand",
                             "latitude":  54.840914,
                             "longitude":  9.529703,
+                            "description":  "Direkt am Wasser, angrenzder Strand gebührenpflichtig",
+                            "additional":  "Wasserstrecke ohne Pumpe, Eimer für Meerwasser mitbringen",
                             "image":  "assets/images/spielplatz-008/spielplatz.png",
                             "imageAlt":  "Strandspielplatz",
                             "equipment":  [
@@ -483,6 +489,8 @@
                             "area":  "Wohngebiet",
                             "latitude":  54.824898,
                             "longitude":  9.544751,
+                            "description":  "Eingerahmt von Hecken, etwas trostlos",
+                            "additional":  "Kein Tor, nur Sand und Schaukel",
                             "image":  "assets/images/spielplatz-009/spielplatz.png",
                             "imageAlt":  "Spielplatz Göhrener Weg",
                             "equipment":  [
@@ -516,6 +524,8 @@
                             "area":  "Schloss",
                             "latitude":  54.832383,
                             "longitude":  9.544356,
+                            "description":  "Einzelner Kletterturm, Schlossnachbildung",
+                            "additional":  "Toiletten und Gastro in Reichweite",
                             "image":  "assets/images/spielplatz-010/spielplatz.png",
                             "imageAlt":  "Schlossspielplatz",
                             "equipment":  [
@@ -536,6 +546,8 @@
                             "area":  "Parkplatz",
                             "latitude":  54.835071,
                             "longitude":  9.547537,
+                            "description":  "Zwischen Parkplatz und Einzelhändler",
+                            "additional":  "Gegenüber steht noch ein einzelner Drehteller",
                             "image":  "assets/images/spielplatz-011/spielplatz.png",
                             "imageAlt":  "Spielplatz Schinderdam",
                             "equipment":  [
@@ -569,6 +581,8 @@
                             "area":  "Kurgarten",
                             "latitude":  54.841042,
                             "longitude":  9.531591,
+                            "description":  "Zwischen Kurpark und Gastro",
+                            "additional":  "Der Softeis und Pommes Spielpatz :D",
                             "image":  "assets/images/spielplatz-012/spielplatz.png",
                             "imageAlt":  "Pier54",
                             "equipment":  [
@@ -620,6 +634,8 @@
                             "area":  "Kurgarten",
                             "latitude":  54.840653,
                             "longitude":  9.533106,
+                            "description":  "Am oberen Ende vom Kurpark",
+                            "additional":  "Komplett zwischen den Bäumen",
                             "image":  "assets/images/spielplatz-013/spielplatz.png",
                             "imageAlt":  "Schachplatz",
                             "equipment":  [
