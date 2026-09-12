@@ -25,7 +25,12 @@ async function start() {
     if (!response.ok) throw new Error(`Daten konnten nicht geladen werden (${response.status}).`);
 
     const data = await response.json();
-    const playgrounds = [...data.playgrounds].sort((first, second) => first.name.localeCompare(second.name, "de"));
+    const playgrounds = [...data.playgrounds].sort((first, second) => {
+      const firstRanking = Number.isFinite(first.ranking) ? first.ranking : Number.MAX_SAFE_INTEGER;
+      const secondRanking = Number.isFinite(second.ranking) ? second.ranking : Number.MAX_SAFE_INTEGER;
+
+      return firstRanking - secondRanking || first.name.localeCompare(second.name, "de");
+    });
     const map = initializeMap();
     renderMarkers(map, playgrounds);
     renderResults(map, playgrounds);
@@ -128,17 +133,40 @@ function getEquipmentColorClass(name) {
   const colors = {
     "Balancierbalken": "tag-azure",
     "Balancierstrecke": "tag-blue",
+    "Babyschaukel": "tag-mint",
+    "Bolzplatz": "tag-green",
     "Drehender Kletterturm": "tag-violet",
+    "Drehstange": "tag-violet",
+    "Fernglas": "tag-blue",
+    "Förde": "tag-blue",
+    "Hängematte": "tag-mint",
+    "Haus": "tag-violet",
+    "Hinweisschild": "tag-slate",
+    "Karussell": "tag-violet",
+    "Kletterpfad": "tag-coral",
+    "Kletterschiff": "tag-blue",
+    "Kletterturm": "tag-violet",
     "Kletterwand": "tag-coral",
     "Kran-Kletterwand": "tag-rose",
+    "Lupe": "tag-blue",
+    "Netzschaukel": "tag-mint",
     "Rutsche": "tag-sun",
     "Sandkasten": "tag-amber",
     "Schaukel": "tag-green",
-    "Schaukel am Spielturm": "tag-mint",
+    "Schaukel-Fahrzeug": "tag-green",
+    "Schaukeltier": "tag-green",
+    "Schachfeld": "tag-slate",
+    "Schachtisch": "tag-slate",
+    "Seilbahn": "tag-blue",
     "Sitzgelegenheit": "tag-slate",
+    "Sitzgruppe": "tag-slate",
     "Spielturm": "tag-violet",
     "Spielturm mit Rutsche": "tag-violet",
+    "Spielturm mit Schaukel": "tag-violet",
+    "Telefon": "tag-blue",
     "Turnstangen": "tag-azure",
+    "Wackelplatte": "tag-azure",
+    "Wasserstrecke": "tag-blue",
     "Wippe": "tag-amber",
   };
   return colors[name] || "tag-green";
