@@ -803,5 +803,71 @@
                             "accent":  "green",
                             "imageThumbnail":  "assets/images/spielplatz-015/kletterturm_rutsche-thumb.png"
                         }
+                        ,
+                        {
+                            "id":  "spielplatz-016",
+                            "name":  "Skatepark",
+                            "area":  "Am Sportplatz",
+                            "latitude":  54.829170,
+                            "longitude":  9.542651,
+                            "description":  "Skatepark neben dem Sportplatz",
+                            "additional":  "Fußballplätze, Tischtennisplatten und Basketballfeld.",
+                            "image":  "assets/images/spielplatz-016/spielplatz.png",
+                            "imageAlt":  "Skatepark",
+                            "equipment":  [
+                                              {
+                                                  "name":  "Skatepark Rechts",
+                                                  "image":  "assets/images/spielplatz-016/skatepark_zwei.png",
+                                                  "imageAlt":  "Skatepark rechts",
+                                                  "imageThumbnail":  "assets/images/spielplatz-016/skatepark_zwei-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Skatepark Links",
+                                                  "image":  "assets/images/spielplatz-016/skatepark_eins.png",
+                                                  "imageAlt":  "Skatepark links",
+                                                  "imageThumbnail":  "assets/images/spielplatz-016/skatepark_eins-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Basketballplatz",
+                                                  "image":  "assets/images/spielplatz-016/basketballplatz.png",
+                                                  "imageAlt":  "Basketballplatz am Skatepark",
+                                                  "imageThumbnail":  "assets/images/spielplatz-016/basketballplatz-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Kleinfeldplatz",
+                                                  "image":  "assets/images/spielplatz-016/kleinfeldplatz.png",
+                                                  "imageAlt":  "Kleinfeldplatz am Skatepark",
+                                                  "imageThumbnail":  "assets/images/spielplatz-016/kleinfeldplatz-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Bolzplatz",
+                                                  "image":  "assets/images/spielplatz-016/bolzplatz.png",
+                                                  "imageAlt":  "Bolzplatz am Skatepark",
+                                                  "imageThumbnail":  "assets/images/spielplatz-016/bolzplatz-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Tischtennisplatten",
+                                                  "image":  "assets/images/spielplatz-016/tischtennisplatten.png",
+                                                  "imageAlt":  "Tischtennisplatten am Skatepark",
+                                                  "imageThumbnail":  "assets/images/spielplatz-016/tischtennisplatten-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Sitzgelegenheit",
+                                                  "image":  "assets/images/spielplatz-016/sitzgelegenheit.png",
+                                                  "imageAlt":  "Sitzgelegenheit am Skatepark",
+                                                  "imageThumbnail":  "assets/images/spielplatz-016/sitzgelegenheit-thumb.png"
+                                              },                                              
+                                              {
+                                                  "name":  "Hinweisschild",
+                                                  "image":  "assets/images/spielplatz-016/schild.png",
+                                                  "imageAlt":  "Hinweisschild am Skatepark",
+                                                  "showInList":  false,
+                                                  "imageThumbnail":  "assets/images/spielplatz-016/schild-thumb.png"
+                                              }
+                                          ],
+                            "imageLabel":  "Skatepark",
+                            "accent":  "green",
+                            "imageThumbnail":  "assets/images/spielplatz-016/spielplatz-thumb.png"
+                        }
                     ]
 }
