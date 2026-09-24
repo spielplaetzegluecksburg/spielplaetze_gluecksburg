@@ -868,6 +868,148 @@
                             "imageLabel":  "Skatepark",
                             "accent":  "green",
                             "imageThumbnail":  "assets/images/spielplatz-016/spielplatz-thumb.png"
+                        },
+                        {
+                            "id":  "spielplatz-017",
+                            "name":  "Promenade Holnis",
+                            "area":  "Strand",
+                            "latitude":  54.860975,
+                            "longitude":  9.593497,
+                            "description":  "Spielplatz an der Promenade in Holnis mit Kletterturm, Rutsche und Netzschaukel.",
+                            "additional":  "Geeignet für Kinder mit Sitzgelegenheiten und einer ruhigen Promenadenlage.",
+                            "image":  "assets/images/spielplatz-017/spielplatz.png",
+                            "imageAlt":  "Promenade Holnis",
+                            "equipment":  [
+                                              {
+                                                  "name":  "Kletterturm mit Rutsche",
+                                                  "image":  "assets/images/spielplatz-017/kletterturm_rutsche.png",
+                                                  "imageAlt":  "Kletterturm mit Rutsche an der Promenade Holnis",
+                                                  "imageThumbnail":  "assets/images/spielplatz-017/kletterturm_rutsche-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Netzschaukel",
+                                                  "image":  "assets/images/spielplatz-017/netzschaukel.png",
+                                                  "imageAlt":  "Netzschaukel an der Promenade Holnis",
+                                                  "imageThumbnail":  "assets/images/spielplatz-017/netzschaukel-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Schaukeltier",
+                                                  "image":  "assets/images/spielplatz-017/schaukeltier.png",
+                                                  "imageAlt":  "Schaukeltier an der Promenade Holnis",
+                                                  "imageThumbnail":  "assets/images/spielplatz-017/schaukeltier-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Sitzgelegenheit",
+                                                  "image":  "assets/images/spielplatz-017/sitzgelegenheit.png",
+                                                  "imageAlt":  "Sitzgelegenheit an der Promenade Holnis",
+                                                  "imageThumbnail":  "assets/images/spielplatz-017/sitzgelegenheit-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Hinweisschild",
+                                                  "image":  "assets/images/spielplatz-017/schild.png",
+                                                  "imageAlt":  "Hinweisschild an der Promenade Holnis",
+                                                  "showInList":  false,
+                                                  "imageThumbnail":  "assets/images/spielplatz-017/schild-thumb.png"
+                                              }
+                                          ],
+                            "imageLabel":  "Promenade Holnis",
+                            "accent":  "green",
+                            "imageThumbnail":  "assets/images/spielplatz-017/spielplatz-thumb.png"
+                        },
+                        {
+                            "id":  "spielplatz-018",
+                            "name":  "Rüde",
+                            "area":  "Wohngebiet",
+                            "latitude":  54.822221,
+                            "longitude":  9.574938,
+                            "description":  "Spielplatz in Rüde mit Bolzplatz, Wippe, Kletterturm und mehreren Aktivspielgeräten.",
+                            "additional":  "Wenn man es genau nimmt ist dieser Spielplatz in Munkbrarup und nicht Glücksburg.",
+                            "image":  "assets/images/spielplatz-018/spielplatz.png",
+                            "imageAlt":  "Rüde",
+                            "equipment":  [
+                                              {
+                                                  "name":  "Bolzplatz",
+                                                  "image":  "assets/images/spielplatz-018/bolzplatz.png",
+                                                  "imageAlt":  "Bolzplatz in Rüde",
+                                                  "imageThumbnail":  "assets/images/spielplatz-018/bolzplatz-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Kletterturm",
+                                                  "image":  "assets/images/spielplatz-018/kletterturm.png",
+                                                  "imageAlt":  "Kletterturm in Rüde",
+                                                  "imageThumbnail":  "assets/images/spielplatz-018/kletterturm-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Rutsche",
+                                                  "image":  "assets/images/spielplatz-018/rutsche.png",
+                                                  "imageAlt":  "Rutsche in Rüde",
+                                                  "imageThumbnail":  "assets/images/spielplatz-018/rutsche-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Wippe",
+                                                  "image":  "assets/images/spielplatz-018/wippe.png",
+                                                  "imageAlt":  "Wippe in Rüde",
+                                                  "imageThumbnail":  "assets/images/spielplatz-018/wippe-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Netzschaukel",
+                                                  "image":  "assets/images/spielplatz-018/netzschaukel.png",
+                                                  "imageAlt":  "Netzschaukel in Rüde",
+                                                  "imageThumbnail":  "assets/images/spielplatz-018/netzschaukel-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Babyschaukel",
+                                                  "image":  "assets/images/spielplatz-018/babyschaukel.png",
+                                                  "imageAlt":  "Babyschaukel in Rüde",
+                                                  "imageThumbnail":  "assets/images/spielplatz-018/babyschaukel-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Drehteller",
+                                                  "image":  "assets/images/spielplatz-018/drehteller.png",
+                                                  "imageAlt":  "Drehteller in Rüde",
+                                                  "imageThumbnail":  "assets/images/spielplatz-018/drehteller-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Basketballkorb",
+                                                  "image":  "assets/images/spielplatz-018/basketballkorb.png",
+                                                  "imageAlt":  "Basketballkorb in Rüde",
+                                                  "imageThumbnail":  "assets/images/spielplatz-018/basketballkorb-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Tischtennisplatte",
+                                                  "image":  "assets/images/spielplatz-018/tischtennisplatte.png",
+                                                  "imageAlt":  "Tischtennisplatte in Rüde",
+                                                  "imageThumbnail":  "assets/images/spielplatz-018/tischtennisplatte-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Turnstangen",
+                                                  "image":  "assets/images/spielplatz-018/turnstangen.png",
+                                                  "imageAlt":  "Turnstangen in Rüde",
+                                                  "imageThumbnail":  "assets/images/spielplatz-018/turnstangen-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Seilbahn",
+                                                  "image":  "assets/images/spielplatz-018/seilbahn.png",
+                                                  "imageAlt":  "Seilbahn in Rüde",
+                                                  "imageThumbnail":  "assets/images/spielplatz-018/seilbahn-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Sitzgelegenheit",
+                                                  "image":  "assets/images/spielplatz-018/sitzgelegenheit.png",
+                                                  "imageAlt":  "Sitzgelegenheit in Rüde",
+                                                  "imageThumbnail":  "assets/images/spielplatz-018/sitzgelegenheit-thumb.png"
+                                              },
+                                              {
+                                                  "name":  "Hinweisschild",
+                                                  "image":  "assets/images/spielplatz-018/schild.png",
+                                                  "imageAlt":  "Hinweisschild in Rüde",
+                                                  "showInList":  false,
+                                                  "imageThumbnail":  "assets/images/spielplatz-018/schild-thumb.png"
+                                              }
+                                          ],
+                            "imageLabel":  "Rüde",
+                            "accent":  "green",
+                            "imageThumbnail":  "assets/images/spielplatz-018/spielplatz-thumb.png"
                         }
                     ]
 }
