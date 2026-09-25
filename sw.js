@@ -1,4 +1,4 @@
-const CACHE_NAME = "spielplaetze-gluecksburg-v7";
+const CACHE_NAME = "spielplaetze-gluecksburg-v8";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -9,6 +9,8 @@ const APP_SHELL = [
   "./assets/js/pwa.js",
   "./assets/data/playgrounds.json",
   "./assets/icons/icon.svg",
+  "./assets/icons/icon-192.png",
+  "./favicon.ico",
   "./assets/fonts/dm-sans-latin.woff2",
   "./assets/fonts/dm-sans-latin-ext.woff2",
   "./assets/images/social-preview.png"
