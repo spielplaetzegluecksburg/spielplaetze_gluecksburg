@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Spielplätze Glücksburg",
+  "type": "object",
+  "required": ["playgrounds"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "playgrounds": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "area", "latitude", "longitude", "description", "equipment"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9-]+$", "description": "Ordnername unter assets/images, z. B. spielplatz-019" },
+          "name": { "type": "string" },
+          "area": { "type": "string", "examples": ["Wohngebiet", "Strand", "Wald", "Park"] },
+          "ranking": { "type": "integer", "minimum": 1, "description": "Optional: Position ganz oben in der Liste (1 = erster)" },
+          "latitude": { "type": "number", "minimum": 54.5, "maximum": 55.1, "description": "Breitengrad, z. B. 54.8322" },
+          "longitude": { "type": "number", "minimum": 9.2, "maximum": 10.0, "description": "Längengrad, z. B. 9.5609" },
+          "description": { "type": "string" },
+          "additional": { "type": "string", "description": "Optional: Hinweis (Parken, Schatten, ...)" },
+          "photo": { "type": "string", "pattern": "\\.([pP][nN][gG]|[jJ][pP][eE]?[gG])$", "description": "Dateiname des Hauptfotos im Spielplatz-Ordner" },
+          "photoAlt": { "type": "string", "description": "Optional: eigene Bildbeschreibung" },
+          "features": { "type": "object" },
+          "equipment": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["name"],
+              "additionalProperties": false,
+              "properties": {
+                "name": { "type": "string", "description": "Gerätename, z. B. Rutsche" },
+                "photo": { "type": "string", "pattern": "\\.([pP][nN][gG]|[jJ][pP][eE]?[gG])$", "description": "Dateiname des Fotos im Spielplatz-Ordner" },
+                "photoAlt": { "type": "string", "description": "Optional: eigene Bildbeschreibung" },
+                "showInList": { "type": "boolean", "description": "false = nicht als Schlagwort in der Liste zeigen" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
